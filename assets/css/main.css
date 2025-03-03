@@ -584,7 +584,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 }
 
 .publications ol.bibliography li {
-  margin-bottom: -2rem; /* Reduce spacing between publication entries */
+  margin-bottom: -1.2rem; /* Reduce spacing between publication entries */
   padding-bottom: -1rem; /* Reduce padding between elements */
 }
 
