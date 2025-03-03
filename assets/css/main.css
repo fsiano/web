@@ -649,7 +649,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   overflow: hidden;
   text-align: justify;
   transition: all 0.15s ease;
-  margin-top: -0.8rem; /* Reduce space above hidden elements THIS */
+  margin-top: 0.8rem; /* Reduce space above hidden elements THIS */
   padding: 0.2rem; /* Reduce padding inside hidden sections */
 }
 
