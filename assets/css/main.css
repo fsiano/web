@@ -559,8 +559,8 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 .publications h1 {
   font-size: 2rem; /* Keep font size */
   text-align: center;
-  margin-top: 0.5rem; /* Reduce space above title */
-  margin-bottom: -0.5rem; /* Reduce space below title */
+  margin-top: 1rem; /* Reduce space above title */
+  margin-bottom: 0.5rem; /* Reduce space below title */
 }
 
 .publications h2 {
