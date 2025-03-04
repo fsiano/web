@@ -553,7 +553,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
  * MODIFY THIS TO ADJUST THE STYLE OF PUBLICATIONS AND REBUILD
  ******************************************************************************/
 .publications {
-  margin-top: -1rem; /* Reduce space above the publications section */
+  margin-top: -2rem; /* Reduce space above the publications section */
 }
 
 .publications h1 {
@@ -583,8 +583,9 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   margin: 0;
 }
 
+/*HERE*/
 .publications ol.bibliography li {
-  margin-bottom: -1rem; /* Reduce spacing between publication entries */
+  margin-bottom: 1rem; /* Reduce spacing between publication entries */
   padding-bottom: -1rem; /* Reduce padding between elements */
 }
 
@@ -626,6 +627,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 
 .publications ol.bibliography li .links {
   margin-top: -0.5rem; /* Reduce space above links */
+  margin-bottom: -1rem; /* Reduce space below links */
 }
 
 .publications ol.bibliography li .links a.btn {
