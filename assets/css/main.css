@@ -577,6 +577,12 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   text-align: right;
 }
 
+.publications h2::before {
+  content: "";
+  display: block;
+  height: 2rem; /* Adjust this value as needed */
+}
+
 .publications ol.bibliography {
   list-style: none;
   padding: 0;
@@ -628,7 +634,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 
 .publications ol.bibliography li .links {
   margin-top: -0.5rem; /* Reduce space above links */
-  margin-bottom: -1rem; /* Reduce space below links */
+  margin-bottom: -1.5rem; /* Reduce space below links */
 }
 
 .publications ol.bibliography li .links a.btn {
